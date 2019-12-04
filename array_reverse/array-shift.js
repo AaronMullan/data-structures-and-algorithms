@@ -1,5 +1,5 @@
-const arr = [1, 2, 3, 4];
-const n = 5;
+const arr = [1, 2, 3, 4, 5];
+const n = 'hi';
 
 const arrayShifter = (n, arr) => {
   let arrayShifted = arr;
