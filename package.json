@@ -16,7 +16,9 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "node": "^13.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AaronMullan/data-structures-and-algorithms.git"
