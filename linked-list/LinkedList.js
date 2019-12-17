@@ -4,7 +4,7 @@ class Node {
     this.next = next;
   }
 }
-module.exports = class LinkedList {
+class LinkedList {
   constructor() {
     this.head = null;
   }
@@ -87,10 +87,19 @@ module.exports = class LinkedList {
     }
     current = this.head;
     for(let i = 1; i < counter - val; i ++){
-      current = current.head;
+      current = current.next;
     }
     return current.value;
     // return 'hi'
   }
 };
   
+const myCoolList = new LinkedList;
+
+myCoolList.insert (5);
+myCoolList.insert (7);
+myCoolList.insert (25);
+myCoolList.insert (25);
+console.log(myCoolList.toString);
+
+console.log(myCoolList);
