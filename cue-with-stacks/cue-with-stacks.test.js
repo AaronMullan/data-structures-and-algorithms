@@ -5,5 +5,4 @@ describe('CueWithStacks methods', () => {
   it('has an encue method', () => {
     const cue = new PseudoQueue();
 
-    
   });
