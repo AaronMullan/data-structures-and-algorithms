@@ -1,14 +1,10 @@
-/**
- * Definition for a binary tree node.
- * function TreeNode(val) {
- *     this.val = val;
- *     this.left = this.right = null;
- * }
- */
-/**
- * @param {TreeNode} root
- * @return {number}
- */
+function TreeNode(val) {
+  this.val = val;
+  this.left = this.right = null;
+}
+
+const tree = [3, 9, 20, null, null, 15, 7];
+
 var maxDepth = function(root) {
   // use a handler function since it's easier to write and think about recursive code this way. You start at a num/depth value of 1 because of the definition of depth.
   return maxDepthHandler(root, 1);
